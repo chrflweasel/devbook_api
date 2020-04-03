@@ -1,8 +1,0 @@
-{
-  "main_db" : {
-    "host": "localhost",
-    "db": "",
-    "username": "",
-    "password": ""
-  }
-}
