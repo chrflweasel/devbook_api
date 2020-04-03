@@ -1,3 +1,4 @@
 .idea/
 .backend/vendor/
 backend/test.php
+backend/db_settings.json
