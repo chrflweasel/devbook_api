@@ -17,4 +17,13 @@ class APIControllerBase {
         $this->token = $token;
         $this->user_id = $user_id;
     }
+
+    protected function getResult() {
+        if ($this->error !== null) {
+            $this->result['error'] = $this->error;
+        }
+
+        $this->result['success'] = $this->success;
+        return $this->result;
+    }
 }

@@ -10,4 +10,12 @@ class ServerErrors {
             'Запит не є POST',
             'Non-POST request');
     }
+
+    public function unknownActKeyError() {
+        return makeError(
+            3,
+            'Неизвестное имя экшена',
+            'Невідоме ім\'я екшену',
+            'Unknown action Key');
+    }
 }
